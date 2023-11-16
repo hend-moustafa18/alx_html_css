@@ -19,7 +19,10 @@ aside {
 }
 header {
     background-color:chocolate;
-    text-align: center;
+    text-align: right;
+}
+div{
+    text-align: left;
 }
 footer {
     background-color:chocolate;
