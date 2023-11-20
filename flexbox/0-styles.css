@@ -181,17 +181,14 @@
       ============================= */
   
   ul.row {
-    display:flex;
-    flex-direction: row;
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
   .row {
-    display:flex;
-    flex-direction: row;
-    display: table;
+    content: '';
+    display: flex;
     clear: both;
   }
   
