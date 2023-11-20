@@ -181,6 +181,7 @@
       ============================= */
   
   ul.row {
+    display:flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -202,9 +203,6 @@
   
   .col-1-2 {
     width: 50%;
-  }
-  .grid-section .row {
-    display: flex;
   }
   
   /* Navbar
