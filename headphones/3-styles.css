@@ -74,11 +74,6 @@ nav li a:hover {
        margin: 0 0;
        padding-bottom: 3rem;
     }
- 
-    header .menu-icon {
-       display: initial;
-       order: -1;
-    }
 }
 
 /* ============== END HEADER ============ */
@@ -155,7 +150,7 @@ nav li a:hover {
     flex-wrap: row wrap;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    
 }
 .music div {
     width: 207px;
@@ -198,7 +193,6 @@ nav li a:hover {
        flex-direction: column;
        padding: 0;
     }
-/* ============== END of what we do ============ */
 
 @media screen and (max-width: 1000px) {
     section {
@@ -211,3 +205,142 @@ nav li a:hover {
        padding: 80px 30px;
     }
  }
+ }
+ /* ============== END of what we do ============ */
+
+   /*-----Start of our results section-----*/
+
+.ourresults {
+        background-position: center;
+        background-attachment:scroll;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+        background-image: url(./images/headphones_hero_2.jpg);
+     }
+.ourresults .hexagons {
+        display: flex;
+     }
+.ourresults .hexagons .poly {    
+    background-image: url(./images/pentagone.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+ }
+.ourresults h2 {  
+
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #FFF;
+    font-weight: 700;
+    padding:50px
+}
+.ourresults p {  
+
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+ 
+}
+.ourresults .hexagons .poly p {
+    margin-bottom: 100px;
+    display: flex;
+    
+}
+
+
+@media screen and (max-width: 1000px) {
+    .ourresults .hexagons {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       padding: 0;
+    }
+    .ourresults .hexagons .poly {
+        width: 50%;
+ }
+}
+ @media screen and (max-width: 575px) {
+    .ourresults .hexagons {
+        display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       padding: 0;
+    }
+ }
+      /*-----end of our results section-----*/
+
+        /*-----Start of contact section-----*/
+
+        #contact {
+            background-color: #fff;
+            padding: 100px 0px;
+        }
+        #contact-us h3 {
+            color: #071629;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 50px;   
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        form div {
+            display: flex;
+            width: 335px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 50px; 
+        }
+        form label {
+            color: #071629;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        form input {
+            display: flex;
+            width: 335px;
+            height: 30px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            border: none;
+            border-bottom: 1px solid #071629;
+        }
+        form button {
+            width: 162px;
+            height: 44px;
+            border-radius: 22px;
+            background: #FF6565;
+            color: #FFF;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            border: none;
+        }
+        form button:hover {
+            cursor: pointer;
+            opacity: 0.9
+        }
+        /*-----end of contact section-----*/
