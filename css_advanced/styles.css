@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Sans Pro', 'Spin Cycle', sans-serif;
+    background-image:url("https://i.ibb.co/myxJ6Sj/Object.png");
+    background-attachment:fixed;
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
